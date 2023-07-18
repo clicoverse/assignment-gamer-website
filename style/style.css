@@ -108,8 +108,73 @@ html {
 
 /* Navbar section ends here */
 
+/* Career section stylesheet starts here */
+.career-container {
+  max-width: 1440px;
+  min-height: 50px;
+  margin: 0 auto;
+  background-color: var(--linear-color);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.career-title {
+  width: 50%;
+  padding: 30px;
+}
+
+.career-title h1 {
+  color: var(--white-text-color);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.career-title p {
+  color: var(--white-text-color);
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.career-table {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.table2>p {
+  text-align: right;
+}
+
+.img-container {
+  width: 50%;
+}
+
+.img-container img {
+  object-fit: cover;
+  width: 100%;
+}
+
+button {
+  border-radius: 48px;
+  background-color: #FFF;
+  padding: 20px 40px;
+  margin-top: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button > a{
+  color: var(--linear-color);
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+/* Careers Section stylesheet ends */
+
 /* Type of Games realated style sheet stats here*/
-.type-of-games{
+.type-of-games {
   max-width: 1440px;
   min-height: 50px;
   margin: 0 auto;
@@ -121,21 +186,25 @@ html {
   /* border: 3px solid red; */
 }
 
-.games{
+.games {
   display: flex;
   padding: 20px;
   align-items: center;
   justify-content: space-evenly;
 }
+
 .games:hover {
   border: 2px solid var(--linear-color);
   border-radius: 50px;
 }
-.games img{
+
+.games img {
   height: 60px;
   width: 60px;
+  object-fit: cover;
 }
-.games p{
+
+.games p {
   color: var(--black-text-color);
   font-size: 1.25rem;
   font-weight: 600;
@@ -197,10 +266,12 @@ html {
   justify-content: center;
   margin: 40px auto;
 }
-.fa-brands{
+
+.fa-brands {
   font-size: 40px;
 }
-.copyright{
+
+.copyright {
   color: rgba(255, 255, 255, 0.60);
   font-weight: 500;
   padding-bottom: 130px;
