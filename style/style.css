@@ -12,9 +12,10 @@
 
 :root {
   --black-text-color: #0B0223;
-  --button-color: #FF42a5;
+  --linear-color: #FF42a5;
   --primary-text-color: #534C64;
   --white-text-color: #FFFFFF;
+  --menu-color: #3C354F;
 }
 
 html {
@@ -22,7 +23,7 @@ html {
 }
 
 .btn-primary {
-  background-color: var(--button-color);
+  background-color: var(--linear-color);
   padding: 10px 24px;
   color: white;
   border-radius: 20px;
@@ -38,10 +39,132 @@ html {
 
 /* sheared style ends */
 
-.navbar-container{
+.navbar-container {
   max-width: 1440px;
   min-height: 50px;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  margin: 0 6rem;
+  /* border: 3px solid red; */
+}
+
+.logo-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /* border: 3px solid green; */
+}
+
+.logo-container img {
+  width: 50px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.logo-container h1 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: var(--black-text-color);
+}
+
+.g-style {
+  color: var(--linear-color);
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.nav-menu-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+.nav-menu-container a {
+  color: var(--menu-color);
+  font-weight: 500;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.follow-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 17px;
+  background-color: rgba(11, 2, 35, 0.10);
+  border-radius: 8px;
+}
+
+.follow-btn p {
+  color: var(--menu-color);
+  font-weight: 500;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+/* Navbar section ends here */
+
+/* Footer section starts here */
+.footer-container {
+  max-width: 1440px;
+  min-height: 300px;
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #0B0223;
+  margin: 0 auto;
+}
+
+.footer-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding-top: 120px;
+}
+
+.footer-logo-container h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.footer-logo-container img {
+  width: 50px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.footer-link a,
+.footer-icon i {
+  color: white;
+  /* border: 3px solid red; */
+  padding-left: 50px;
+}
+
+.footer-link {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 20px auto;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+}
+.fa-brands{
+  font-size: 40px;
+}
+.copyright{
+  color: rgba(255, 255, 255, 0.60);
+  font-weight: 500;
+  padding-bottom: 130px;
 }
