@@ -108,9 +108,46 @@ html {
 
 /* Navbar section ends here */
 
+/* Type of Games realated style sheet stats here*/
+.type-of-games{
+  max-width: 1440px;
+  min-height: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 3.5rem;
+  /* border: 3px solid red; */
+}
+
+.games{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.games:hover {
+  border: 2px solid var(--linear-color);
+  border-radius: 50px;
+}
+.games img{
+  height: 60px;
+  width: 60px;
+}
+.games p{
+  color: var(--black-text-color);
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+/* Type of Games realated style sheet ends here */
+
+
 /* Footer section starts here */
 .footer-container {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   min-height: 300px;
   display: block;
   text-align: center;
