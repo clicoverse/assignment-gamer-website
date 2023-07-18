@@ -1,0 +1,9 @@
+/* Mobile device - responsive designing - max-width: 576px  */
+@media screen and (max-width: 576px){
+
+}
+
+/* Tablet Device - responsive designing - min-width: 576px max-width: 992px  */
+@media screen and (min-width:576px) and (max-width: 992px){
+
+}

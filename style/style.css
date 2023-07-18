@@ -1,0 +1,47 @@
+/* Font imported from Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@200;300;400;500;600&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* sheared styles - Starts */
+* {
+  font-family: 'Work Sans', sans-serif;
+  text-decoration: none;
+  border: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+:root {
+  --black-text-color: #0B0223;
+  --button-color: #FF42a5;
+  --primary-text-color: #534C64;
+  --white-text-color: #FFFFFF;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.btn-primary {
+  background-color: var(--button-color);
+  padding: 10px 24px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.img-clip {
+  background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 50px;
+}
+
+/* sheared style ends */
+
+.navbar-container{
+  max-width: 1440px;
+  min-height: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
