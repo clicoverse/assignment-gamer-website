@@ -1,9 +1,117 @@
 /* Mobile device - responsive designing - max-width: 576px  */
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .nav-menu-container {
+    flex-direction: column;
+  }
+
+  .nav-menu-container {
+    width: 100%;
+  }
+
+  .hero-container {
+    flex-direction: column-reverse;
+  }
+
+  .hero-info-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .images-container {
+    width: 100%;
+  }
+
+  .gamer-container {
+    flex-direction: column;
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .gamer-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .funny-games-img-container {
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .single-image {
+    padding: 1%;
+  }
+
+  .single-image p {
+    text-align: center;
+  }
+
+  .game-info-1 {
+    flex-direction: column;
+  }
+
+  .play-instantly-image-container {
+    width: 100%;
+  }
+
+  .online-games-info {
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+
+  }
+
+  .game-info-2 {
+    flex-direction: column-reverse;
+    margin-bottom: 70px;
+  }
+
+  .online-games-image-container {
+    width: 100%;
+  }
+
+  .career-container {
+    flex-direction: column;
+  }
+
+  .career-title {
+    width: 100%;
+    /* margin-top: 70px; */
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .type-of-games {
+    padding: 0;
+  }
+
+  .type-of-games {
+    margin: 5px;
+  }
+  .games {
+    padding: 10px;
+  }
+  .games img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+  }
+
+  .games p {
+    color: var(--black-text-color);
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 10px;
+  }
 
 }
 
 /* Tablet Device - responsive designing - min-width: 576px max-width: 992px  */
-@media screen and (min-width:576px) and (max-width: 992px){
-
-}
+@media screen and (min-width:576px) and (max-width: 992px) {}
