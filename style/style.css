@@ -443,8 +443,8 @@ button > a{
   /* max-width: 1440px; */
   min-height: 300px;
   display: block;
-  text-align: center;
   align-items: center;
+  text-align: center;
   justify-content: center;
   background-color: #0B0223;
   margin: 0 auto;
@@ -473,7 +473,6 @@ button > a{
 .footer-link a,
 .footer-icon i {
   color: white;
-  /* border: 3px solid red; */
   padding-left: 50px;
 }
 
